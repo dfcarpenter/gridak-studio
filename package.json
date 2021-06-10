@@ -1,0 +1,35 @@
+{
+  "name": "gridak",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Dan Carpenter <dfcarpenter@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start --port=3334",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.10.5",
+    "@sanity/components": "^2.2.6",
+    "@sanity/core": "^2.10.5",
+    "@sanity/dashboard": "^2.10.5",
+    "@sanity/default-layout": "^2.10.5",
+    "@sanity/default-login": "^2.10.5",
+    "@sanity/desk-tool": "^2.10.5",
+    "@sanity/ui": "^0.33.29",
+    "@sanity/vision": "^2.10.5",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "react-icons": "^4.2.0",
+    "sanity-plugin-dashboard-widget-document-list": "^0.0.13",
+    "sanity-plugin-dashboard-widget-netlify": "^1.1.0",
+    "sanity-plugin-leaflet-input": "^1.0.1"
+  },
+  "devDependencies": {}
+}
